@@ -1,4 +1,6 @@
-# Sample Hardhat Project
+# eth-chaiDapp
+<!-- version: v0.0.0 -->
+![Version](https://img.shields.io/badge/version-v0.0.0-blue)
 
 This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
 
@@ -27,3 +29,5 @@ in the client folder, make a JSON file private.json
 
 once this is done we will have the app up and running
 use "npm run dev" in a terminal at client, then app is set to run
+
+## Changelog

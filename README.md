@@ -1,6 +1,6 @@
 # eth-chaiDapp
-<!-- version: v0.1.0 -->
-![Version](https://img.shields.io/badge/version-v0.1.0-blue)
+<!-- version: v0.2.0 -->
+![Version](https://img.shields.io/badge/version-v0.2.0-blue)
 
 This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
 
@@ -31,4 +31,5 @@ once this is done we will have the app up and running
 use "npm run dev" in a terminal at client, then app is set to run
 
 ## Changelog
+- **v0.2.0** (2026-09-25): minor bump
 - **v0.1.0** (2026-09-25): minor bump

@@ -20,15 +20,12 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
-  contracts:
+  ci:
     uses: vpk-11/workflows/.github/workflows/node-ci.yml@v1
     with:
       pm: 'npm'
-      command: 'npx hardhat compile'
-
-  client:
-    uses: vpk-11/workflows/.github/workflows/node-ci.yml@v1
-    with:
-      dir: 'client'
-      pm: 'npm'
-      build: 'build'
+      command: >-
+        GANACHE_URL=http://127.0.0.1:8545
+        GANACHE_ACC_PRIVATE_KEY=0x1111111111111111111111111111111111111111111111111111111111111111
+        npx hardhat compile
+        && cd client && npm ci && npm run build
